@@ -5,3 +5,5 @@ Project to practice making and working with vectors in R and Python
 - Have dinner tonight
 - Code!
 - Go on a walk 
+
+*I love linear algebra*
