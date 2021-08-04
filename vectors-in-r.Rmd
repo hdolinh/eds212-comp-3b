@@ -1,0 +1,57 @@
+---
+title: "Vectors in R"
+author: "Halina Do-Linh"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Create a vector!
+vec_a <- c(4, 5)
+
+```
+
+
+### Wow Another Code Chunk
+```{r, echo=FALSE}
+# I can specify in the R header {r} to customize the code chunk, in this case I am hiding the code chunk.
+vec_b <- c(-3, 10)
+
+```
+
+## Vector Addition
+```{r}
+# Create vec_c to add vec_a and vec_b
+vec_c <- vec_a + vec_b
+
+```
+
+## Vector Substraction
+```{r}
+# vec_d is vec_b - vec_a
+
+vec_d <- vec_b - vec_a
+
+```
+
+## Vector Scalar Multiplier 
+```{r}
+# What is vec_e if is it 4 * vec_b?
+
+vec_e <- 4 * vec_b
+
+```
+
+## If we use the asterisk
+```{r}
+vec_a * vec_b
+# This is not the dot product because it does not add the two values together. It only multiplies the corresponding values.
+
+vec_a %*% vec_b
+# The result we see is the starting of a matrix.
+```
+
